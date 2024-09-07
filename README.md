@@ -5,6 +5,6 @@
 
 # Supported Notation Types
 | Type | Status |
------------------
+| ---- | ------ |
 | Sheet | In Progress |
 | Guitar Tabs | TBD |
