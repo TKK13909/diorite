@@ -1,3 +1,7 @@
+# Summary
+## Goal
+The goal of this project is to provide an alternative to closed-source music notation programs
+
 # TODO
 - [ ] Decide on file format
 - [ ] Decide on programming language to use
