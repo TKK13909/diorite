@@ -21,5 +21,5 @@ Notes should be described using the following:
 - A sign to denote whether a note should be sharp or flat
 - A number to denote the octave
 ### Examples
-- A whole middle C sharp note in this format would be "1C+4"
-- A 
+- A whole middle C sharp note would be "1C+4".
+- A half middle D flat note would be "2D-4".
