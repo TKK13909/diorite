@@ -8,18 +8,94 @@ This file describes the specifications of possible file formats for the Diorite 
 Possible custom file extensions
 - .dt
 
-# Formatting
-## Time Signature
-*TODO*
+# Formatting (actively changing)
+All items can and should be seperated by a certain symbol (probably the pipe "|" or a comma) but should also be optional whenever possible such as in this example: "2{CDE}" which would be a walkup of half notes C, D, and E.
+
+Sets of brackets and braces should always be seperated from each other. For example: "[{}|{}]|[{}]"
+## Comments
+Comments should use two slashes "//"
+## Measures
+Measures should be designated by brackets.
 ## Cleffs
 *TODO*
-## Notes
-Notes should be described using the following:
+## Rests
+Rests should be described using the following:
 
-- A number for duration
-- A letter for pitch
-- A sign to denote whether a note should be sharp or flat
-- A number to denote the octave
+- A number for duration (default to 1)
+- The letter 'R'
+## Notes
+Notes should be described using the following :
+
+- A number for duration (default to 1)
+- A letter for pitch (not caps sensitive)
+- A sign to denote whether a note should be sharp or flat (optional)
+- A number to denote the octave (default to 4)
+
+Any modifiers for a note can be put outside a set of curly braces.
+### Chords
+*TODO*
 ### Examples
-- A whole middle C sharp note would be "1C+4".
-- A half middle D flat note would be "2D-4".
+- A whole middle C sharp note would be "1C+4" or just "C+".
+- A half middle D flat note would be "2D-4" or just "2D-".
+- Two quarter middle C notes would be "4C4|4C4", "4C|4C", or just "4{C|C}".
+
+## Für Elise in Current Format
+*Based on the first five measures of [this](https://upload.wikimedia.org/wikipedia/commons/2/27/Beethoven_WoO_59_Erstausgabe.png) sheet music*
+(This should be updated whenever a change is made to the Diorite format)
+
+```
+[16{ED+}5] | [16{ {ED+E}5 | B4D+5C5 }] | [{8A 16{RCEA}}4] | [{8B 16{REG+B}}4] | [8C5 | 16{RE4E5D+5}]
+```
+
+```
+// Expanded //
+[ // Measure 1 //
+    16{
+    E
+    D+
+    }5
+]|
+[ // Measure 2 //
+    16{
+        {
+        E
+        D+
+        E
+        }5|
+        B4
+        D+5
+        C5
+    }
+]|
+[ // Measure 3 //
+    {
+        8A
+        16{
+            R
+            C
+            E
+            A
+        }
+    }4
+]|
+[ // Measure 4 //
+    {
+        8B
+        16{
+            R
+            E
+            G+
+            B
+        }
+    }4
+]|
+[ // Measure 5 //
+    8C5|
+    16{
+        R
+        E4
+        E5
+        D+5
+    }
+]
+```
