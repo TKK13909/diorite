@@ -1,5 +1,5 @@
 # Diorite
-An open-source music notation format.
+An open-source music notation format. (All open-source projects named after a rock/element turn out great so here's to this one!)
 
 THIS REPOSITORY IS A WORK IN PROGRESS
 
