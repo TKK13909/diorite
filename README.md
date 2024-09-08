@@ -1,5 +1,7 @@
 # Diorite
-An open-source music notation format
+An open-source music notation format.
+
+THIS REPOSITORY IS A WORK IN PROGRESS
 
 # Summary
 ## Goal
