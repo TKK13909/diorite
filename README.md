@@ -6,6 +6,7 @@ If you want something like this that actually works, check out the open-source [
 
 # TODO
 - [ ] Decide on file format
+    
     Options:
     - yaml
     - json
