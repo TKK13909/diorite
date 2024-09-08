@@ -24,5 +24,5 @@ This is a new idea I have been mulling over and may not actually take form. If y
 # Supported Notation Types
 | Type | Status |
 | ---- | ------ |
-| Sheet | In Progress |
+| Sheet | Planned |
 | Guitar Tabs | TBD |
