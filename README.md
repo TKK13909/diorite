@@ -1,3 +1,6 @@
+# Diorite
+An open-source music notation format
+
 # Summary
 ## Goal
 The goal of this project is to provide an alternative to closed-source music notation programs.
