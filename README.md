@@ -5,7 +5,7 @@ THIS REPOSITORY IS A WORK IN PROGRESS
 
 # Summary
 ## Goal
-The goal of this project is to provide an alternative to closed-source music notation programs by creating an open standard that can be used by anyone.
+The goal of this project is to provide an alternative to closed-source music notation programs by creating an open standard that can be used by anyone and can be converted to as many formats as possible.
 
 If you want something like this that actually works, check out the open-source [Lilypond](https://lilypond.org/index.html)!
 
