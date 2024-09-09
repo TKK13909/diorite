@@ -19,8 +19,8 @@ This is a new idea I have been mulling over and may not actually take form. If y
     - yaml
     - json
     - md
-    - Custom format
-- [ ] Decide on programming language to use
+    - Custom format (This will probably be the end decision)
+- [ ] Decide on programming language to use for the first prototype editor
 - [ ] Decide on what music [notation types](#supported-notation-types) to support initially
 
 # Supported Notation Types
