@@ -32,7 +32,7 @@ If a clef is specified in a piece but is empty in a certain measure, it should b
 ### Possible bass clef viewed in a terminal
 (I know I'm bad at ASCII please don't hurt my feelings >_<)
 ```
-				_____
+                _____
           -=-.* _____
          '*  |* _____
            .'   _____
