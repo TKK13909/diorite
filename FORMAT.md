@@ -16,8 +16,28 @@ Sets of brackets and braces should always be seperated from each other. For exam
 Comments should use two slashes "//"
 ## Measures
 Measures should be designated by brackets.
-## Cleffs
-*TODO*
+## Clefs
+Clefs should be described inside measures using the following:
+
+- A three-letter name of the clef (if none is specified then notes should automatically default to the closest one):
+    - Tre: Treble
+    - Bas: Bass
+    - Alt: Alto
+    - Ten: Tenor
+    - Neu: Neutral
+    - Tab: Guitar Tab
+
+If a clef is specified in a piece but is empty in a certain measure, it should be automatically populated by a single rest of the measure length (usually a whole rest)
+
+### Possible bass clef viewed in a terminal
+(I know I'm bad at ASCII please don't hurt my feelings >_<)
+```
+				_____
+          -=-.* _____
+         '*  |* _____
+           .'   _____
+          ~'    _____
+```
 ## Rests
 Rests should be described using the following:
 
