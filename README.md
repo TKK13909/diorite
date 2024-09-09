@@ -27,4 +27,4 @@ This is a new idea I have been mulling over and may not actually take form. If y
 | Type | Status |
 | ---- | ------ |
 | Sheet | Planned |
-| Guitar Tabs | TBD |
+| Guitar Tabs | Planned as a seperate clef type |
